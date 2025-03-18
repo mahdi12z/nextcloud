@@ -39,13 +39,14 @@ A reverse proxy is used in Nextcloud configuration to improve security, performa
 ## B) Open the docker-compose.yaml File
 Use the following command to open the file in the vi editor:
 
+```bash
+sudo vi nextcloud/docker-compose.yaml
+```
 
 ## C) Finalize the Content of docker-compose.yaml
 Ensure that your file looks similar to this:
 
-```bash
-sudo vi nextcloud/docker-compose.yaml
-```
+
 
 ```bash
 version: '3'
